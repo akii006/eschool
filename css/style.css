@@ -1,0 +1,127 @@
+.logo{
+    background-color: red;
+    color:black;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 20px;
+    padding: 8px;
+    text-shadow: 2px 2px 2px white;
+    margin: 10px;
+}
+span{
+    color:white;
+    font-size: .8em;
+    text-shadow: none;
+} 
+.coustom-nav .coustom-nav-item{
+    color: white !important;
+}
+.coustom-nav-item:hover{
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white !important;
+}
+.navbar-toggler-icon{
+    background-color: red !important;
+    border: 2px solid white !important;
+    border-radius: 10px;
+}
+.remove-bg-marg{
+    margin: 0;
+    padding: 0;
+}
+.bg {
+    background-image: url(https://www.biodex.com/sites/default/files/imagecache/workshop/elearn_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-parent{
+    position: relative;
+}
+.pa {
+    width: 100%;
+    height: 100vh;
+}
+.bg-over{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    z-index: 1;
+    opacity: 0.5;
+}
+.bg-content{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    text-transform: capitalize;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:black;
+}
+.bottom-banner{
+    text-align: center;
+    color: wheat !important;
+}
+.col-sm h5{
+    padding: 10px;
+}
+.bg-content h1{
+    font-size: 10vh;
+}
+.bg-content small{
+    font-size: 3vh;
+}
+.bg-content .btn{
+    margin-top: 20px;
+}
+.stripe{
+    background-image: linear-gradient(240deg, red,brown) ;
+    height: 10rem;
+    margin-top: 4rem ;
+    transform: rotate(350deg);
+    z-index: -5;
+    padding: 3rem;
+}
+.social-hover:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: rgb(95,93,93);
+}
+.card-deck{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.car{
+    width: 30% !important;
+    margin: 3px;
+}
+.bottom-banner a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .my-content{
+        display: none;
+    }
+    .pa {
+        height: 50vh;
+    }
+    .coustom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+
+}
